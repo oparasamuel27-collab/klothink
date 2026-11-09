@@ -2203,6 +2203,12 @@ h1 {
   color: var(--text);
 }
 
+.size-pill:hover {
+  background: rgba(255, 255, 255, 0.22);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
 .info-block {
   margin-top: 20px;
   border: 1px solid rgba(17, 17, 17, 0.08);
